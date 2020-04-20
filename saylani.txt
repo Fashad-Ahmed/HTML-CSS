@@ -1,0 +1,33 @@
+1st milestone
+open firebase.google.com
+sign in usinng gmail
+add project
+
+2nd milestone
+open nodejs.org
+download stable version
+install
+
+3rd milestone
+run cmd as administrator
+node -v
+npm -v
+install firebase using ( npm install --global firebase-tools)
+
+4th milestone
+firebase login(in the path of assignment folder)
+yes
+allow access
+allow on account
+firebase login successfully
+firebas in it(on above path)
+yes
+put the arrow on hostjngand click spacebar
+use existing / add new 
+hosting setup
+public use --- > yes
+yes (re-write)
+firebase initialization
+ctrl x the original html and css file in public folder and replace it with already present html file
+firebase deploy in same path
+ https://project-fashad-20.web.app
