@@ -1,19 +1,3 @@
-# x=input("enter a number: ")
-# a=int(x)**2
-# print("square: ",a)
-# a1=str(a)
-# x1=a1[0:2]
-# x2=a1[2:]
-#
-# x1=int(x1)
-# x2=int(x2)
-#
-# print(x1);print(x2)
-# #
-# if x1+x2 == int(x):
-#     print("kaprekar")
-# else:
-#     print("kaprekar")
 def kek():
     a=int(input("Number: "))
     b=str(a*a)
