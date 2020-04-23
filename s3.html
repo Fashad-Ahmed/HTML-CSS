@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>say3class</title>
+</head>
+
+<body>
+    <!-- in html we made columns from row
+    tr->row  td->column -->
+    <!--<table border="10px">         
+          10px uske borders thick hugayy
+        <tr>
+            <th>Name</th>
+            <th colspan="2">Homeland</th>
+            <th>Age</th>
+
+        </tr>
+        <tr>
+            <td>Fashad</td>
+            <td>Pak</td>
+            <td>Khi</td>
+            <td>18</td>
+
+        </tr>
+        <tr>
+            <td>Zayeem</td>
+            <td>Pak</td>
+            <td>Khi</td>
+            <td>15</td>
+        </tr>
+    </table>
+    
+    <table border="5py">
+        <tr>
+            <th></th>
+            <th scope="col">saturday</th>
+            <th scope="col">sunday</th>
+        </tr>
+        <tr>
+            <th scope="row">sales:</th>
+            <td>150</td>
+            <td>120</td>
+        </tr>
+
+    </table> -->
+
+    <!-- FORMS CHAPTER-->
+    <!-- when the form is limited we use get when it is huge we use post-->
+
+
+    <form action="http://www.example.com/subscribe.php" method="get">
+        <p>This is where the form controls will appear.
+        </p>
+        <p>Username:
+            <input type="text" name="username" size="15" maxlength="30"> <!-- type text or num and type password also-->
+            <textarea name="column" id="" cols="30" rows="10"> enter your comments......</textarea>
+        </p>
+        <p>
+            Gender:
+            male: <input type="radio" name="Gender" value="male">
+            female: <input type="radio" name="Gender" value="female">
+
+        </p>
+
+        <p>
+            answer</br>
+            select more than 1 option </br>
+            apple: <input type="checkbox" name="answer" value="apple">
+            mango: <input type="checkbox" name="answer" value="mango">
+
+        </p>
+        <p>
+            which do you want </br>
+            <select name="devices" id="">
+                <option value="ipod">ipod</option>
+                <option value="iphone">iphone</option>
+            </select>
+        </p>
+        <p>Do you play any of the following instruments?
+            (You can select more than one option by holding
+            down control on a PC or command key on a Mac
+            while selecting different options.) </br>
+        <select name="instruments" size="3" multiple="multiple">
+            <option value="guitar" selected="selected">
+                Guitar</option>
+            <option value="drums">Drums</option>
+            <option value="keyboard" selected="selected">Keyboard</option>
+                </select>
+        </p>
+            <p>
+                Select Your Country <br>
+                <select name="Country">
+                    <option value="Pakistan">Pakistan</option>
+                    <option value="Saudi Arab">Saudi Arab</option>
+                    <option selected value="Canada">Canada</option>
+                    <option value="UK">UK</option>
+                </select>
+            </p>
+        
+        <p>
+            upload picturen </br>
+            <input type="file" name="">
+        </p>
+        <p>
+            <input type="submit" value="submit">
+            <button type="submit"> subbmit</button></br>
+            <input type="image" src="" alt="">
+            <input type="hidden" value="submit">
+        </p>
+        <p>
+            <input type="text" placeholder="Enter Your Name">
+        </p>
+    </fieldset>
+    </form>
+
+
+</body>
+
+</html>
