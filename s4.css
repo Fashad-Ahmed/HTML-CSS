@@ -1,0 +1,48 @@
+/* h1{
+    color: blue;
+} */
+/* it was external css, for internal we do it saylani 4 part 2 */
+
+*{
+    background-color: chartreuse;
+    /* opacity: 0.5; */
+}
+
+/* for any class related styling */
+.bio{
+    color: maroon;
+}
+
+/* for if id  */
+#naam{
+    background-color: blueviolet;
+}
+/* sirf wu li jiska a hai */
+li>a :hover{
+    color: darkgoldenrod;
+
+}
+li>a{
+    
+    color: cyan;
+    background-color: darkkhaki;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* wu b ju kisi p ka hai */
+p>b{
+    color: darkorange;
+    background-color: purple;
+}
+/* connection from chld to grandchild */
+p i{
+    color: darkorange;
+    background-color:red;
+}
+ /* siblings */
+h1+p{
+    color: royalblue;
+}
+/* non-siblings */
+ol~p{
+    color: sienna;
+}
