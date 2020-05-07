@@ -1,2 +1,2 @@
 # Project
-These are the short tasks,practices and assignments written in HTML &amp; CSS
+These are the short tasks and practices written in HTML &amp; CSS
