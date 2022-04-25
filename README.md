@@ -1,3 +1,2 @@
-# Project
-All the code push here is for learning purpose only!
-These are the short tasks and practices written in HTML &amp; CSS
+# Flexbox-Series
+All the code contains tasks written in HyperText Markup Language and Cascading Style Sheet elements
